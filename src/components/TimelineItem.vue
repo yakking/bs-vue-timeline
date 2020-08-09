@@ -93,7 +93,7 @@ export default {
       if (moment().isSame(momentDate, "month")) {
         return "Present time";
       } else {
-        return momentDate.format("MM YYYY");
+        return momentDate.format("YYYY");
       }
     }
   }
